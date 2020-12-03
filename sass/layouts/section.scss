@@ -1,0 +1,38 @@
+section {
+	padding: 20px 0;
+}
+.section__title {
+	margin-bottom: 30px;
+	span {
+		line-height: 32px;
+		font-size: 22px;
+		color: #fec576;
+	}
+	h3 {
+		font-size: 30px;
+		line-height: 40px;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		a {
+			color: #2d2a2a;
+			&:hover {
+				color: var(--active-color);
+				text-decoration: none;
+			}
+		}
+	}
+	p {
+		margin-bottom: 0;
+		font-size: 14px;
+		line-height: 24px;
+		color: #777;
+	}
+}
+
+.section__banner {
+	padding: 60px 0;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

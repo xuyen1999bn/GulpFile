@@ -1,0 +1,113 @@
+$red: #fe0002;
+$brown: #966842;
+@keyframes shadow {
+	from {
+		text-shadow: 0 3px 10px rgba(255, 255, 255, .3);
+	}
+	to {
+		text-shadow: 0 3px 13px rgba(255, 255, 255, .9);
+	}
+}
+.ws-contact {
+	position: fixed;
+	bottom: 0;
+	left: 5px;
+	margin: 20px 30px 10px 0;
+	z-index: 9999;
+	&-icon {
+		display: block;
+		margin: 10px 0;
+		position: relative;
+		width: 50px;
+		height: 50px;
+		line-height: 70px;
+		text-align: center;
+		background: var(--active-color);
+		border-radius: 50%;
+		transition: 0.2s;
+		&:not(:last-child) {
+			transform: translateY(100%);
+			opacity: 0;
+			visibility: hidden;
+			&.is-active {
+				transform: translateY(0);
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+		&::before {
+			content: "";
+			background: url("https://www.upsieutoc.com/images/2018/12/29/ZFUFPff.png") no-repeat;
+			background-size: contain;
+			width: 30px;
+			height: 30px;
+			display: inline-block;
+			transition: 0.3s;
+		}
+		&.is-active {
+			&::before {
+				background: url("https://www.upsieutoc.com/images/2018/12/29/0vsz83V.png") no-repeat;
+				background-size: contain;
+				width: 25px;
+				height: 25px;
+			}
+		}
+		&.call {
+			background: #f01f46;
+			transition-delay: 250ms;
+			&::before {
+				background: url("https://www.upsieutoc.com/images/2018/12/29/i3Qvln3.png") no-repeat;
+				background-size: contain;
+				width: 30px;
+				height: 30px;
+			}
+		}
+		&.mail {
+			background: #691ff0;
+			transition-delay: 200ms;
+			&::before {
+				background: url("https://www.upsieutoc.com/images/2018/12/29/K34s4SN.png") no-repeat;
+				background-size: contain;
+				width: 30px;
+				height: 30px;
+			}
+		}
+		&.facebook {
+			background: #231ff0;
+			transition-delay: 150ms;
+			&::before {
+				background: url("https://www.upsieutoc.com/images/2018/12/29/0FgYLEn.png") no-repeat;
+				background-size: contain;
+				width: 30px;
+				height: 30px;
+			}
+		}
+		&.message {
+			background: #1f7af0;
+			transition-delay: 100ms;
+			&::before {
+				background: url("https://www.upsieutoc.com/images/2018/12/29/I6NY3Mi.png") no-repeat;
+				background-size: contain;
+				width: 30px;
+				height: 30px;
+			}
+		}
+		&.zalo {
+			background: #f1f1f1;
+			transition-delay: 50ms;
+			&::before {
+				background: url("https://www.upsieutoc.com/images/2018/12/29/Ph1kn8Y.png") no-repeat;
+				background-size: contain;
+				width: 30px;
+				height: 30px;
+			}
+		}
+		&:hover {
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			&::after {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+}

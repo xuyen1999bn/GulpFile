@@ -7,3 +7,30 @@
 @import 'base/typography.scss';
 
 // components
+@import 'components/logo.scss';
+@import 'components/nav.scss';
+@import 'components/slick-slider.scss';
+@import 'components/about.scss';
+@import 'components/products.scss';
+@import 'components/category.scss';
+@import 'components/slick-item.scss';
+@import 'components/banner.scss';
+@import 'components/blogs.scss';
+@import 'components/account.scss';
+@import 'components/nav-mobile.scss';
+@import 'components/search-bar.scss';
+@import 'components/ws-contact.scss';
+@import 'components/breadcrumb.scss';
+@import 'components/intro-content.scss';
+@import 'components/gallery.scss';
+@import 'components/list-infor.scss';
+@import 'components/aside.scss';
+@import 'components/filter-list-product.scss';
+@import 'components/sort-list-product.scss';
+@import 'components/pagination.scss';
+
+//layouts
+@import 'layouts/header.scss';
+@import 'layouts/section.scss';
+@import 'layouts/footer.scss';
+@import 'layouts/grid.scss';

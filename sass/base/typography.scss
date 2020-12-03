@@ -1,0 +1,17 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+	line-height: 1.4;
+}
+p {
+	margin: 0 0 15px 0;
+}
+a {
+	transition: all 150ms ease-in-out;
+	display: block;
+	&:hover {
+		text-decoration: none;
+	}
+}

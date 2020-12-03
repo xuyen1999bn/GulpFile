@@ -1,0 +1,38 @@
+.slick-item .slick-prev::before {
+	content: "";
+	background-image: url('https://bizweb.dktcdn.net/100/368/327/themes/739207/assets/back.svg?1573116946384');
+	height: 30px;
+	width: 30px;
+	display: block;
+}
+.slick-item .slick-next::before {
+	content: "";
+	background-image: url('https://bizweb.dktcdn.net/100/368/327/themes/739207/assets/right-arrow.svg?1573116946384');
+	height: 30px;
+	width: 30px;
+	display: block;
+}
+.slick-item .slick-prev {
+	left: -35px;
+	opacity: 0;
+	transition: all .25s ease;
+	transform: translateX(-30px);
+}
+.slick-item .slick-next {
+	right: -35px;
+	opacity: 0;
+	transition: all .25s ease;
+	transform: translateX(30px);
+}
+.slick-item:hover .slick-prev {
+	left: -15px;
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(0);
+}
+.slick-item:hover .slick-next {
+	right: -15px;
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(0);
+}

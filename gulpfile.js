@@ -3,7 +3,7 @@ const sass = require('gulp-sass');
 const del = require('del');
 
 gulp.task('styles', () => {
-	return gulp.src('sass/style.scss').pipe(sass().on('error', sass.logError)).pipe(gulp.dest('./css/'));
+	return gulp.src('sass/style.scss').pipe(sass().on('error', sass.logError)).pipe(gulp.dest('./assets/css/'));
 });
 
 gulp.task('clean', () => {
